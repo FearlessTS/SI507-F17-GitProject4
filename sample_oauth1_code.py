@@ -9,6 +9,8 @@ import json
 # Don't fill in a callback_url and put in a placeholder for the website
 # Visit the Keys and Access Tokens tab for your app and grab the following two values
 
+
+# Twitter calls Consumer Key is needed to proceed
 client_key = "" # what Twitter calls Consumer Key
 client_secret = "" # What Twitter calls Consumer Secret
 
