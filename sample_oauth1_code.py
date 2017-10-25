@@ -1,7 +1,14 @@
-# OAuth1 Code to access data from the Twitter API...
+### This has been modified by Yanbang Wang
+### Good luck with the project!
+# OAuth1 Code to access data from the Twitter API...
 import requests_oauthlib
 import webbrowser
 import json
+
+# add a better caching system:
+def better_cache():
+    pass
+
 
 
 # Get these from the Twitter website, by going to
