@@ -1,15 +1,21 @@
+### This has been modified by Yanbang Wang
+### Good luck with the project!
+
 # OAuth1 Code to access data from the Twitter API...
 import requests_oauthlib
 import webbrowser
 import json
+
+# add a better caching system:
+def better_cache():
+    pass
+
 
 
 # Get these from the Twitter website, by going to
 # https://apps.twitter.com/ and creating an "app"
 # Don't fill in a callback_url and put in a placeholder for the website
 # Visit the Keys and Access Tokens tab for your app and grab the following two values
-
-
 # Twitter calls Consumer Key is needed to proceed
 client_key = "" # what Twitter calls Consumer Key
 client_secret = "" # What Twitter calls Consumer Secret
